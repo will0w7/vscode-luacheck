@@ -1,17 +1,17 @@
 {
-  "name": "vscode-luacheck",
+  "name": "vscode-luacheck-reloaded",
   "displayName": "vscode-luacheck",
   "description": "Lua linting using luacheck",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "publisher": "dwenegar",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dwenegar/vscode-luacheck"
+    "url": "https://github.com/will0w7/vscode-luacheck"
   },
-  "homepage": "https://github.com/dwenegar/vscode-luacheck",
+  "homepage": "https://github.com/will0w7/vscode-luacheck",
   "bugs": {
-    "url": "https://github.com/dwenegar/vscode-luacheck/issues"
+    "url": "https://github.com/will0w7/vscode-luacheck/issues"
   },
   "icon": "icon.png",
   "engines": {
@@ -67,10 +67,10 @@
     "watch": "tsc -watch -p ./"
   },
   "devDependencies": {
-    "@types/node": "^16.18.34",
-    "@types/vscode": "^1.73.0",
-    "@typescript-eslint/eslint-plugin": "^6.18.1",
-    "@typescript-eslint/parser": "^6.7.0",
-    "eslint": "^8.56.0"
+    "@types/node": "^22.5.4",
+    "@types/vscode": "1.93.0",
+    "@typescript-eslint/eslint-plugin": "8.5.0",
+    "@typescript-eslint/parser": "8.5.0",
+    "eslint": "9.10.0"
   }
 }

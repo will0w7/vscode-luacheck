@@ -1,4 +1,6 @@
-# vscode-luacheck
+# vscode-luacheck-reloaded
+
+Forked from: [vscode-luacheck](https://github.com/dwenegar/vscode-luacheck)
 
 Diagnostic for Lua using luacheck.
 

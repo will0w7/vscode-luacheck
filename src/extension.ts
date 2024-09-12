@@ -44,7 +44,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     let confTester = new configuration.ConfigurationTester;
     context.subscriptions.push(confTester);
-    vscode.window.onDidChangeActiveTextEditor(editor => confTester.test(), null, context.subscriptions);
+    vscode.window.onDidChangeActiveTextEditor(_ => confTester.test(), null, context.subscriptions);
     let diagnosticProvider: DiagnosticProvider = new DiagnosticProvider;
     registerDiagnosticProvider(LUA_MODE, diagnosticProvider, context.subscriptions);
 }
